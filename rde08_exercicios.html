@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDE 08 - Exercícios</title>
+</head>
+<body>
+    <h1>TAGS</h1>
+    <dl>
+        <dt><b>- table</b></dt>
+        <dd>É uma tag que define um conjunto estruturado de dados com linhas e colunas. Para defeninir uma tabela usamos o comando <b><i>table</i></b> para inicializar sua estruturação. O comando <b><i>tr</i></b> inicializa uma linha enquanto o comando <b><i>td</i></b> permite inserir os dados das celúlas de tal linha, formando assim as colunas da tabela. O comando <b><i>th</i></b> faz que os dados inseridos sejam lidos como "títulos" e o atributo <b><i>colspan="x"</i></b> nas tags de inserção de dados, <b>x</b> quer dizer o número de colunas que a célula deve ocupar, já no atributo <b><i>rowspan="x"</i></b> o <b>x</b> significa a quantidaade de linhas que determinada célula deve ocupar <br> 
+            <b>Exemplo:</b>        
+             <table border="1">
+                <tr>
+                    <th colspan="5">exemplo tabela</th>
+                </tr>
+             <tr>
+                 <th>números</th>
+                <td>1 </td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th rowspan="2">letras</th>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+            </tr>
+            <tr>
+                
+                <td>e</td>
+                <td>f</td>
+                <td>h</td>
+                <td>i</td>
+            </tr>
+            </table>
+            <br>
+           <b>Sintaxe:</b>
+            <figure>
+                <img src="img/sintaxe1.png" alt="Sintaxe tag table" >
+            </figure>
+        </dd>
+
+        <dt><b>- del e ins</b></dt>
+        <dd>A tag <b><i>del</i></b> para excluir um texto no documento o qual é sinalizado geralmente com um risco, com a tag <b><i>ins</i></b> é possível inserir um novo texto o qual geralmente é sublinhado
+        <br><b>Exemplo:</b> <br>
+        Minha viagem dos sonhos é para <del>os Estados Unidos</del> <ins>o Japão</ins>
+       <p><b>Sintaxe:</b></p>
+        <figure>
+           <img src="img/sintaxe2.png" alt="Sintaxe tag del e ins" >
+       </figure>
+        </dd>
+        <dt><b>- sub</b></dt>
+        <dd>Define que detrminado texto será subscrito, sendo apresentado meio caractere abaixo da linha normal e geralmente em uma fonte menor. 
+            <br><b>Exemplo:</b> <br>
+
+            A fórmula química da água é o H<sub>2</sub>O
+
+            <p><b>Sintaxe:</b></p>
+            <figure>
+                <img src="img/sintaxe3.png" alt="Sintaxe tag sub" >
+            </figure>  
+        </dd>
+        <dt><b>- sup</b></dt>
+        <dd>Define que determinado texto será sobrescrito, sendo apresentado meio caractere acima da linha normal e geralmente em uma fonte menor.
+            <br><b>Exemplo:</b> <br>
+
+            Calcule a potência 7<sup>3</sup>
+
+            <p><b>Sintaxe:</b></p>
+            <figure>
+                <img src="img/sintaxe4.png" alt="Sintaxe tag sup">
+            </figure>
+        </dd>
+        <dt><b>- blockquote</b></dt>
+        <dd>
+            Indica que o texto é uma citação longa de outra fonte onde usa-se o atributo <b>cite</b> para inserir a URL.
+            <br><b>Exemplo:</b> <br>
+
+            Nove em cada dez brasileiros tomariam qualquer vacina contra covid
+            <blockquote cite="https://www.correiobraziliense.com.br/brasil/2021/07/4940594-nove-em-10-brasileiros
+            -tomariam-qualquer-vacina-contra-covid-diz-pesquisa.html">    
+            De acordo com levantamento da CNI, dibvulgado pelo Correrio Braziliense mostra 43% dos entrevistados gostariam de escolher o imunizante, mas apenas 9% deixariam de se vacinar se não houvesse a marca de preferência. População vê avanços na vacinação e está mais confiante para frequentar comércio</blockquote>
+            <p><b>Sintaxe:</b></p>
+            <figure>
+                <img src="img/sintaxe5.png" alt="Sintaxe tag blockquote">
+            </figure>
+        </dd>
+        <dt><b>- q</b></dt>
+        <dd>
+            Indica que o texto é uma pequena citação que não requer marcação de parágrafo.
+            <br> <b>Exemplo:</b><br>
+
+           Gelerias, as grandes defensoras da estabilidade do clima do planeta <br>
+            <q cite="https://www.iberdrola.com/meio-ambiente/derretimento-de-geleiras-causas-efeitos-solucoes">
+            Consequência do degelo são as alterações climáticas</q>
+
+            <p><b>Sintaxe:</b></p>
+            <figure>
+                <img src="img/sintaxe6.png" alt="Sintaxe tag q">
+            </figure>
+            </dd>
+            <dt><b>- abbr</b></dt>
+            <dd>
+                Faz a marcação de abreviaturas, pode conter o atributo <b>title</b> que define a descrição da abreviação.
+                <br><b>Exemplo:</b> <br>
+
+                A demarcação de terras indígenas são áreas interditadas pela 
+                <abbr title="Fundação Nacional do Índio">Funai</abbr> para a proteção dos povos nativos
+                
+                <p><b>Sintaxe:</b></p>
+                <figure>
+                    <img src="img/sintaxe7.png" alt="Sintaxe tag abbr">
+                </figure>
+            </dd>
+            <dt><b>- address</b></dt>
+            <dd>
+                Utilizada para inserir informações de contato.Tais informações podem se referir a e-mail, endereço, número de teelfone, rede social, etc.
+                <br><b>Exemplo:</b> <br>
+
+                <address>
+                    <a href="https://www.instagram.com/galeria.autodidata/">Galeria Autodidata</a> 
+                    <p>Trajano Grácia, 1260 <br>CEP 84507-060, Irati-Pr</p>
+                </address>
+
+                <p><b>Sintaxe:</b></p>
+                <figure>
+                    <img src="img/sintaxe8.png" alt="Sintaxe tag address">
+                </figure>
+
+            </dd>
+            <dt><b>- cite</b></dt>
+            <dd>
+                Define o título de um trabalho artístico que pode ser um livro, um poema,uma música, um filme, etc.
+                <br> <b>Exemplo:</b> <br>
+
+                O <cite>Poema No Meio do Caminho</cite> de 1928 foi escrito por Carlos Drummond de Andrade.
+
+                <p><b>Sintaxe:</b></p>
+                <figure>
+                    <img src="img/sintaxe9.png" alt="Sintaxe tag cite">
+                </figure>
+            </dd>
+            <dt><b>- bdo</b></dt>
+            <dd>
+                Utilizada para alterar a direção do texto, usa-se o atributo <b>dir</b> inserindo os valores: <b>ltr</b> para o texto ficar da <b>esquerda para a direita</b> e <b>rtl</b> para o texto ficar da <b>direita para a esquerda</b>. 
+                <br><b>Exemplo:</b> <br>
+
+                <bdo dir="rtl">Esse texto ficará no sentido direita-esquerda</bdo>
+
+                <p><b>Sintaxe:</b></p>
+                <figure>
+                    <img src="img/sintaxe10.png" alt="Sintaxe tag bdo">
+                </figure>
+            </dd>   
+            <dt><b>- code</b></dt>
+            <dd>
+                Define um fragmento de código de computador no documento HTML, formatando o texto fazendo-o parecer antigos estilos de computador. Geralmente o texto encontrado na tag é apresentado em fonte monoespaçada.
+                <br><b>Exemplo:</b> <br>
+
+                <code>Esse texto está inserido em uma tag code</code>
+
+               <p><b>Sintaxe:</b></p>
+               <figure>
+                   <img src="img/sintaxe11.png" alt="Sintaxe tag code">
+               </figure>
+            </dd>
+            <dt><b>- pre</b></dt>
+            <dd>
+                Define um texto como pré-formatado, sendo visualizado do modo como foi editado no código HTML na fonte monospace.
+                <br><b>Exemplo:</b> <br>
+
+                <pre>Este texto está inserido na tag pre</pre>
+
+                <p><b>Sintaxe:</b></p>
+                <figure>
+                    <img src="img/sintaxe12.png" alt="Sintaxe tag pre">
+                </figure>
+            </dd>
+            <dt><b>- kbd</b></dt>
+            <dd>
+                É utilizada para representar a entrada de texto a partir de uum teclado ou outro dispositivo de entrada de texto.
+                <br><b>Exemplo:</b> <br>
+
+                Para desfazer uma ação pode-se utilizar o atalho do Windows <kbd>Ctrl</kbd> + <kbd>Z</kbd>
+
+                <p><b>Sintaxe</b></p>
+                <figure>
+                    <img src="img/sintaxe13.png" alt="Sintaxe tag kbd">
+                </figure>
+            </dd>
+    </dl>
+
+    <p><b>Aluna:Ana Júlia Letchacovski</b></p>
+    
+</body>
+</html>
