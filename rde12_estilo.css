@@ -1,0 +1,79 @@
+div{
+    background-color: purple;
+    margin: 10px;
+}
+span{
+    font-weight: bold;
+}
+h1#principal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:rgba(216,197,233,0.616);;
+    background-color: rgb(39,7,70);
+    border: 2px solid rgb(138,46,224);
+}
+div.agrupamento{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(29,9,48,0.616);
+    color: rgb(39,7,70);
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 10px;
+}
+.exemplo1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(216,197,233,0.616);;
+    border: 1px solid purple;
+    margin: 10px;
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+}
+.exemplo2{
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgba(216,197,233,0.616);
+    border: 1px solid purple;
+    margin: 10px;
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+}
+.personalizado{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(216,197,233,0.616);
+    border:10px ;
+    padding: 10px;
+}
+.pseudo1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(216,197,233,0.616);
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+}
+.pseudo2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(216,197,233,0.616);
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+}
+.pseudo3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(216,197,233,0.616);
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+}
+.pseudo1:hover{
+    color: rgb(39,7,70);
+    background-color: rgba(29,9,48,0.616)
+}
+.pseudo2:hover{
+    color: rgb(39,7,70);
+    background-color: rgba(29,9,48,0.616)
+}
+.pseudo3:hover{
+    color: rgb(39,7,70);
+    background-color: rgba(29,9,48,0.616)
+}
